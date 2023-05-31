@@ -9,7 +9,7 @@ if($_SESSION['name']==''){
 }
 ?>
 <!DOCTYPE html>
-<!--=== Coding by CodingLab | www.codinglabweb.com === -->
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -53,7 +53,7 @@ if($_SESSION['name']==''){
                     <i class="uil uil-files-landscapes"></i>
                     <span class="link-name">Content</span>
                 </a></li> -->
-                <li><a href="#">
+                <li><a href="analytics.php">
                     <i class="uil uil-chart"></i>
                     <span class="link-name">Analytics</span>
                 </a></li>
@@ -158,14 +158,15 @@ if($_SESSION['name']==''){
             <div class="activity">
                 <div class="title">
                     <i class="uil uil-clock-three"></i>
-                    <span class="text">Recent Activity</span>
+                    <span class="text">Recent Donations</span>
                 </div>
             <div class="get">
             <?php
 
+$loc= $_SESSION['location'];
 
 // Define the SQL query to fetch unassigned orders
-$sql = "SELECT * FROM food_donations WHERE assigned_to IS NULL";
+$sql = "SELECT * FROM food_donations WHERE assigned_to IS NULL and location=\"$loc\"";
 
 // Execute the query
 $result=mysqli_query($connection, $sql);
