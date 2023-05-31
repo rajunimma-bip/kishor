@@ -221,7 +221,7 @@ if (isset($_POST['Login'])) {
       if (password_verify($sanitized_password, $row['password'])) {
         $_SESSION['email'] = $email;
         $_SESSION['name'] = $row['name'];
-        $_SESSION['location'] = $row[''];
+        $_SESSION['location'] = $row['location'];
         header("location:admin.php");
       } else {
         $msg=1;

@@ -37,7 +37,7 @@ if($_SESSION['name']==''){
                     <i class="uil uil-files-landscapes"></i>
                     <span class="link-name">Content</span>
                 </a></li> -->
-                <li><a href="#">
+                <li><a href="analytics.php">
                     <i class="uil uil-chart"></i>
                     <span class="link-name">Analytics</span>
                 </a></li>
