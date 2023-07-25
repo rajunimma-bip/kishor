@@ -1,8 +1,9 @@
 <?php
 ob_start(); 
-$connection = mysqli_connect("localhost:3307", "root", "");
-$db = mysqli_select_db($connection, 'demo');
- include("connect.php"); 
+// $connection = mysqli_connect("localhost:3307", "root", "");
+// $db = mysqli_select_db($connection, 'demo');
+include("connect.php"); 
+include '../connection.php';
 if($_SESSION['name']==''){
 	header("location:deliverylogin.php");
 }
@@ -48,7 +49,7 @@ $id=$_SESSION['Did'];
                 <li><a href="#home" class="active">Home</a></li>
                 <li><a href="openmap.php" >map</a></li>
                 <li><a href="deliverymyord.php" >myorders</a></li>
-                <!-- <li ><a href="fooddonate.html"  >Donate</a></li> -->
+                <!-- <li ><a href="../logout.php"  >Logout</a></li> -->
             </ul>
         </nav>
     </header>

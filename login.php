@@ -1,7 +1,8 @@
 <?php
 session_start();
-$connection = mysqli_connect("localhost:3307", "root", "");
-$db = mysqli_select_db($connection, 'demo');
+include 'connection.php';
+// $connection = mysqli_connect("localhost:3307", "root", "");
+// $db = mysqli_select_db($connection, 'demo');
 if (isset($_POST['sign'])) {
   $email = $_POST['email'];
   $password = $_POST['password'];
@@ -29,25 +30,5 @@ if (isset($_POST['sign'])) {
 
 
 
-
-  // $query="select * from login where email='$email'and password='$password'";
-  // $qname="select name from login where email='$email'and password='$password'";
-
-
-  // if(mysqli_num_rows($query_run)==1)
-  // {
-  // //   $_SESSION['name']=$name;
-
-  //   // echo "<h1><center> Login Sucessful  </center></h1>". $name['gender'] ;
-
-  //   $_SESSION['email']=$email;
-  //   $_SESSION['name']=$name['name'];
-  //   $_SESSION['gender']=$name['gender'];
-  //   header("location:home.html");
-
-  // }
-  // else{
-  //   echo "<h1><center> Login Failed</center></h1>";
-  // }
 }
 ?>

@@ -1,6 +1,7 @@
  <?php
- $connection=mysqli_connect("localhost:3307","root","");
-$db=mysqli_select_db($connection,'demo');
+//  $connection=mysqli_connect("localhost:3307","root","");
+// $db=mysqli_select_db($connection,'demo');
+include '../connection.php';
 $acc=0;
 $msg=0;
 if(isset($_POST['signup']))

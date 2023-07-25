@@ -107,12 +107,7 @@ if($_SESSION['name']==''){
         </tr>
         </thead>
        <tbody>
-        <!-- <tr><td>food</td><td>10kg</td><td>jan 1</td> <td>processing</td></tr>
-        <tr><td>food</td><td>5kg</td><td>jan 2</td><td>completed</td></tr>
-        <tr><td>food</td><td>5kg</td><td>jan 2</td><td>completed</td></tr>
-        <tr><td>food</td><td>5kg</td><td>jan 2</td><td>completed</td></tr>
-        <tr><td>food</td><td>5kg</td><td>jan 2</td><td>completed</td></tr>
-        <tr><td>food</td><td>5kg</td><td>jan 2</td><td>completed</td></tr> -->
+        
 
          <?php
         $email=$_SESSION['email'];

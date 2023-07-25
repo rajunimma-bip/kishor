@@ -1,8 +1,9 @@
 
 <?php
-$connection = mysqli_connect("localhost:3307", "root", "");
-$db = mysqli_select_db($connection, 'demo');
- include("connect.php"); 
+// $connection = mysqli_connect("localhost:3307", "root", "");
+// $db = mysqli_select_db($connection, 'demo');
+include "../connection.php";
+include("connect.php"); 
 if($_SESSION['name']==''){
 	header("location:signin.php");
 }
