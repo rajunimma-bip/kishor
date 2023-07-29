@@ -52,7 +52,7 @@
        <li> Run the script http://localhost/folderName </li> </ol>
 
 <h2>view project :</h2>
-<a href="https://onedrive.live.com/embed?resid=69B3F4DD8B2BCE5D%21811&authkey=!AKVkY5MVppJO8cM&em=2&wdAr=1.7777777777777777&wdEaaCheck=1">view ppt</a> 
+<a href="https://onedrive.live.com/View.aspx?resid=69B3F4DD8B2BCE5D!811&wdSlideId=256&wdModeSwitchTime=1690645071649&wdo=2&authkey=!AKVkY5MVppJO8cM">view ppt</a> 
 |
 <a href="https://kishor-23.github.io/food-donate/index.html" > view demo</a>
 |
