@@ -40,6 +40,15 @@
       <img src="img/chatbotsupport.jpg">
       <h2>Secure Login</h2>
       <img src="img/hash-flow.png">
+      <h2>How to run</h2>
+      <ol>
+       <li>Download the project zip file</li>
+       <li> Extract the file and copy the folder</li>
+       <li>Paste inside root directory(for xampp xampp/htdocs, for wamp wamp/www, for lamp var/www/Html)</li>
+       <li> Open PHPMyAdmin (http://localhost/phpmyadmin)</li>
+       <li> Create a database</li>
+       <li>Import demo.sql file(inside database folder)</li>
+       <li> Run the script http://localhost/folderName </li> </ol>
 
 <h2>view project :</h2>
 <a href="https://onedrive.live.com/embed?resid=69B3F4DD8B2BCE5D%21811&authkey=!AKVkY5MVppJO8cM&em=2&wdAr=1.7777777777777777&wdEaaCheck=1">view ppt</a> 
